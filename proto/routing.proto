@@ -1,0 +1,65 @@
+syntax = "proto3";
+
+package routing;
+
+service RouteEngine {
+  rpc CalculateRoute(RouteRequest) returns (stream RouteResponse);
+  rpc ValidatePolar(PolarValidationRequest) returns (PolarValidationResponse);
+}
+
+message Coordinate {
+  double latitude = 1;
+  double longitude = 2;
+}
+
+message RouteRequest {
+  string vessel_id = 1;
+  Coordinate start = 2;
+  Coordinate target = 3;
+  int64 departure_time_unix = 4;
+  double initial_heading_degrees = 5;
+  optional int64 time_step_seconds = 6;
+  optional double heading_step_degrees = 7;
+  optional double max_tws_knots = 8;
+  optional double max_wave_height_m = 9;
+  optional uint32 max_steps = 10;
+}
+
+message Waypoint {
+  Coordinate point = 1;
+  int64 time_unix = 2;
+  double heading_degrees = 3;
+  double course_degrees = 4;
+  double sog_knots = 5;
+  double fuel_remaining_l = 6;
+  uint32 sail_index = 7;
+  bool is_motoring = 8;
+  double cumulative_cost_s = 9;
+}
+
+enum RouteEvent {
+  ROUTE_EVENT_UNSPECIFIED = 0;
+  ISOCHRONE_CHUNK = 1;
+  FINAL_ROUTE = 2;
+}
+
+message RouteResponse {
+  RouteEvent event = 1;
+  uint32 isochrone_index = 2;
+  repeated Coordinate isochrone_points = 3;
+  repeated Waypoint waypoints = 4;
+  string status = 5;
+  bool warning_climatology_used = 6;
+}
+
+message PolarValidationRequest {
+  string vessel_id = 1;
+  string format = 2;
+  string content = 3;
+}
+
+message PolarValidationResponse {
+  bool valid = 1;
+  double maximum_speed_knots = 2;
+  uint32 sail_count = 3;
+}

@@ -1,0 +1,1 @@
+{"$message_type":"unused_extern","lint_level":"force-warn","unused_extern_names":["clap","criterion","h3o_bit","half","libc","tempfile"]}

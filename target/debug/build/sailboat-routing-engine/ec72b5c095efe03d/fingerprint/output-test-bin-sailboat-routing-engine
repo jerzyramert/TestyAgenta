@@ -1,0 +1,1 @@
+{"$message_type":"unused_extern","lint_level":"force-warn","unused_extern_names":["base64","criterion","csv","flate2","geo","geojson","h3o","h3o_bit","libc","memmap2","postgres","prost","rayon","rstar","serde","serde_json","tempfile","thiserror","tokio_stream","uuid"]}

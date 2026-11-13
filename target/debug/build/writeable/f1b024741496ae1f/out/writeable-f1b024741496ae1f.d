@@ -1,0 +1,11 @@
+/Users/ramert/TestyAgenta/target/debug/build/writeable/f1b024741496ae1f/out/writeable-f1b024741496ae1f.d: /Users/ramert/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/writeable-0.5.5/src/lib.rs /Users/ramert/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/writeable-0.5.5/src/cmp.rs /Users/ramert/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/writeable-0.5.5/src/impls.rs /Users/ramert/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/writeable-0.5.5/src/ops.rs /Users/ramert/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/writeable-0.5.5/src/parts_write_adapter.rs /Users/ramert/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/writeable-0.5.5/src/testing.rs /Users/ramert/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/writeable-0.5.5/src/try_writeable.rs
+
+/Users/ramert/TestyAgenta/target/debug/build/writeable/f1b024741496ae1f/out/libwriteable-f1b024741496ae1f.rmeta: /Users/ramert/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/writeable-0.5.5/src/lib.rs /Users/ramert/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/writeable-0.5.5/src/cmp.rs /Users/ramert/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/writeable-0.5.5/src/impls.rs /Users/ramert/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/writeable-0.5.5/src/ops.rs /Users/ramert/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/writeable-0.5.5/src/parts_write_adapter.rs /Users/ramert/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/writeable-0.5.5/src/testing.rs /Users/ramert/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/writeable-0.5.5/src/try_writeable.rs
+
+/Users/ramert/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/writeable-0.5.5/src/lib.rs:
+/Users/ramert/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/writeable-0.5.5/src/cmp.rs:
+/Users/ramert/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/writeable-0.5.5/src/impls.rs:
+/Users/ramert/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/writeable-0.5.5/src/ops.rs:
+/Users/ramert/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/writeable-0.5.5/src/parts_write_adapter.rs:
+/Users/ramert/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/writeable-0.5.5/src/testing.rs:
+/Users/ramert/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/writeable-0.5.5/src/try_writeable.rs:

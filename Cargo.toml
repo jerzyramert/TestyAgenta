@@ -1,0 +1,51 @@
+[package]
+name = "sailboat-routing-engine"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.80"
+
+[workspace]
+members = ["."]
+resolver = "2"
+
+[dependencies]
+geo = "0.29"
+geojson = { version = "0.24", features = ["geo-types"] }
+h3o = "=0.6.4"
+# Keep h3o's semver-compatible transitive dependency on the Rust 2021 edition for Rust 1.80.
+h3o-bit = "=0.1.1"
+memmap2 = "0.9"
+rstar = "0.12"
+thiserror = "2"
+postgres = "=0.19.9"
+redis = "0.27"
+rayon = "1"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+csv = "1"
+axum = "0.7"
+base64 = "0.22"
+flate2 = "1"
+prost = "0.13"
+tokio = { version = "=1.40.0", features = ["macros", "net", "rt-multi-thread", "signal"] }
+tokio-stream = { version = "0.1", features = ["net"] }
+tonic = { version = "0.12", features = ["transport"] }
+uuid = { version = "=1.10.0", features = ["v4"] }
+
+[dev-dependencies]
+criterion = "0.5.1"
+# Keep Criterion's CLI dependency compatible with the project's Rust 1.80 MSRV.
+clap = "=4.5.50"
+# Keep Criterion's serialization dependency compatible with the Rust 1.80 MSRV.
+half = "=2.4.1"
+libc = "0.2"
+tempfile = "3"
+
+[[bench]]
+name = "routing_bench"
+harness = false
+
+[build-dependencies]
+protoc-bin-vendored = "3"
+tonic-build = "0.12"
+

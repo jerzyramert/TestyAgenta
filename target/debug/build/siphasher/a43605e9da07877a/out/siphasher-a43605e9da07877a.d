@@ -1,0 +1,11 @@
+/Users/ramert/TestyAgenta/target/debug/build/siphasher/a43605e9da07877a/out/siphasher-a43605e9da07877a.d: /Users/ramert/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/siphasher-1.0.4/src/lib.rs /Users/ramert/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/siphasher-1.0.4/src/common.rs /Users/ramert/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/siphasher-1.0.4/src/sip.rs /Users/ramert/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/siphasher-1.0.4/src/sip128.rs /Users/ramert/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/siphasher-1.0.4/src/../README.md
+
+/Users/ramert/TestyAgenta/target/debug/build/siphasher/a43605e9da07877a/out/libsiphasher-a43605e9da07877a.rlib: /Users/ramert/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/siphasher-1.0.4/src/lib.rs /Users/ramert/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/siphasher-1.0.4/src/common.rs /Users/ramert/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/siphasher-1.0.4/src/sip.rs /Users/ramert/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/siphasher-1.0.4/src/sip128.rs /Users/ramert/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/siphasher-1.0.4/src/../README.md
+
+/Users/ramert/TestyAgenta/target/debug/build/siphasher/a43605e9da07877a/out/libsiphasher-a43605e9da07877a.rmeta: /Users/ramert/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/siphasher-1.0.4/src/lib.rs /Users/ramert/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/siphasher-1.0.4/src/common.rs /Users/ramert/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/siphasher-1.0.4/src/sip.rs /Users/ramert/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/siphasher-1.0.4/src/sip128.rs /Users/ramert/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/siphasher-1.0.4/src/../README.md
+
+/Users/ramert/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/siphasher-1.0.4/src/lib.rs:
+/Users/ramert/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/siphasher-1.0.4/src/common.rs:
+/Users/ramert/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/siphasher-1.0.4/src/sip.rs:
+/Users/ramert/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/siphasher-1.0.4/src/sip128.rs:
+/Users/ramert/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/siphasher-1.0.4/src/../README.md:
